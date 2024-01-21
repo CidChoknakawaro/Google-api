@@ -7,7 +7,7 @@ contactForm.addEventListener('submit', async e => {
 
     if (questionInput.value) {
         console.log("test")
-        await fetch('http://localhost:8000/q-and-a/add', {
+        await fetch('/q-and-a/add', {
             method: 'POST',
             headers: {
             'Content-Type': 'application/json',
