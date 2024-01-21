@@ -4,5 +4,8 @@ export default {
     app: {
         host: "",
         port: ""
+    },
+    sheets: {
+        id: ''
     }
 }
